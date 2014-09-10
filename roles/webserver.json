@@ -1,0 +1,12 @@
+{
+  "name": "webserver",
+  "default_attributes": {
+    "apache": {
+      "greeting": "Webinar"
+    }
+  },
+  "run_list" : [ 
+    "recipe[apache]",
+    "recipe[apache::vhosts]"
+  ]
+}

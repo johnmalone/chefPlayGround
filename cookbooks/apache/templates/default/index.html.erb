@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1> Hello, <%= node['apache']['greeting'] %> </h1>
+<p> My name is <%= node['hostname'] %>.</p>
+
+<p>  we love <%=  @site_name %></p>
+
+<p> Served from <%=  node['ipaddress'] %>:<%= @port  %></p>
+</body>
+</html>
