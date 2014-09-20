@@ -1,0 +1,6 @@
+default['tcxparse']['homedir'] = "/var/www/tcxparse"
+default['tcxparse']['databasehost'] = "localhost"
+default['tcxparse']['database'] = "tcxparse"
+default['tcxparse']['databaseuser'] = "tcxparse"
+default['tcxparse']['databasepassword'] = "secretPass"
+default['tcxparse']['hostname'] = "tcxparse.localdomain"

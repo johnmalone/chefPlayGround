@@ -1,5 +1,6 @@
 {
   "name": "webserver",
+  "json_class": "Chef::Role",
   "default_attributes": {
     "apache": {
       "greeting": "Webinar"

@@ -1,0 +1,27 @@
+{
+  "name": "tcxParse",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "mysql": {
+      "server_root_password": "secret"
+    },
+    "phpmyadmin": {
+      "fpm": false
+    },
+    "beanstalkd" : {
+      "start_during_boot": true
+    }
+  },
+  "run_list" : [ 
+    "recipe[apt]",
+    "recipe[git]",
+    "recipe[vim]",
+    "recipe[mysql::server]",
+    "recipe[tcxParse::apache]",
+    "recipe[phpmyadmin]",
+    "recipe[composer]",
+    "recipe[beanstalkd]",
+    "recipe[supervisord]",
+    "recipe[tcxParse]"
+  ]
+}

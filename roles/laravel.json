@@ -1,0 +1,17 @@
+{
+  "name": "laravel",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "mysql": {
+      "server_root_password": "secret"
+    }
+  },
+  "run_list" : [ 
+    "recipe[apt]",
+    "recipe[git]",
+    "recipe[vim]",
+    "recipe[mysql]",
+    "recipe[php-mcrypt]",
+    "recipe[tcxParse]"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "php-mcrypt",
+  "description": "Installs/Configures the mcrypt module for PHP",
+  "long_description": "",
+  "maintainer": "Michael Beattie",
+  "maintainer_email": "beattiem@knights.ucf.edu",
+  "license": "MIT license",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0"
+  },
+  "dependencies": {
+    "php": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "mcrypt": "Installs/Configures the mcrypt module for PHP"
+  },
+  "version": "1.0.0"
+}
